@@ -1,0 +1,130 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+
+	/* Multiple shades of grey */
+
+	/* Table Grey */
+	--panel: #eee;
+
+	/* Headline Grey */
+	--headline: #ccc;
+
+	/* Box Shadow Grey */
+	--shadow: #999;
+	
+
+	/* The combinations of #cdf make for some nice light colors */
+
+	/* alkali and alkaline earth metals */
+	--blue: #cdf;
+
+	/* a nice light purple */
+	--purple: #dcf;
+
+	/* green for the DFC aficionados */
+	--green1: #dfc;
+
+	/* a nice sea-foam green */
+	--green2: #cfd;
+
+	/* transition metal orange */
+	--orange: #fdc;
+
+	/* non-metal pinkish */
+	--pink: #fcd;
+
+}
+
+#wrapper {
+	text-align: center;
+	width: 1160px;
+	margin: 0 auto;
+}
+
+#table {
+	width: 1140px;
+	border: 1px solid #000;
+	line-height: 0px;
+	background-color: var(--panel);
+	display: inline-block;
+	padding: 10px;
+}
+
+.element {
+	width: 54px;
+	height: 54px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 2px;
+	text-align: center;
+	border: 1px solid #000;
+}
+
+.nothing {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.nothing p {
+	position: relative;
+	top: 25px;
+	color: red;
+	font-size: 18px;
+}
+
+.alkali {
+	background-color: var(--blue);
+}
+
+.metal {
+	background-color: var(--orange);
+}
+
+.non-metal {
+	background-color: var(--pink);
+}
+
+.lanthanide-actinide {
+	background-color: var(--green2);
+}
+
+.element:hover {
+	box-shadow: 3px 3px 3px var(--shadow);
+	cursor: pointer;
+}
+
+.number {
+	position: relative;
+	top: 10px;
+	font-size: 14px
+}
+
+.symbol {
+	font-weight: bold;
+	position: relative;
+	top: 28px;
+}
+
+.mass {
+	position: relative;
+	top: 47px;
+	font-size: 14px
+}
+
+.headline {
+	padding: 10px;
+	margin: 10px 0px;
+	background-color: var(--headline);
+	font-size: 48px;
+	font-weight: normal;
+}
