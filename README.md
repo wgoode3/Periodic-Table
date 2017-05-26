@@ -1,3 +1,3 @@
-#Periodic Table of the Elements
+# Periodic Table of the Elements
 
-*Creates a table using nothing but HTML, CSS, and JS
+* Creates a table using nothing but HTML, CSS, and JS
