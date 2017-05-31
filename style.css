@@ -100,7 +100,7 @@ body {
 
 .element:hover {
 	box-shadow: 3px 3px 3px var(--shadow);
-	cursor: pointer;
+	cursor: crosshair;
 }
 
 .number {
